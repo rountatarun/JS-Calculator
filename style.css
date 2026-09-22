@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+    background-color: #095368;
+    color: #ebe2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.calculator-container {
+    text-align: center;
+    text-shadow: #22c55e;
+}
+
+.calculator-container h1 {
+    font-size: 1.3rem;
+    margin-bottom: 16px;
+    color: #94a3b8;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* Sleek Modern Calculator Box */
+.calculator {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 16px;
+    width: 320px;
+    padding: 22px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+}
+
+/* Modern Display Screen */
+.display {
+    background-color: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    text-align: right;
+    min-height: 70px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.previous-operand {
+    font-size: 0.8rem;
+    color: #64748b;
+    min-height: 1.2rem;
+    font-weight: 400;
+}
+
+.current-operand {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #38bdf8;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* Polished Number Buttons */
+.btn {
+    padding: 14px 0;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    background-color: #334155;
+    color: #f1f5f9;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+    background-color: #475569;
+    border-color: #64748b;
+}
+
+.btn:active {
+    transform: scale(0.96);
+}
+
+/* Operators (Subtle Blue Accent) */
+.btn-operator {
+    background-color: #0369a1;
+    border-color: #0284c7;
+    color: #e0f2fe;
+}
+
+.btn-operator:hover {
+    background-color: #0284c7;
+    border-color: #38bdf8;
+}
+
+/* Action Buttons - C, DEL, % (Subtle Red/Dark Accent) */
+.btn-action {
+    background-color: #7f1d1d;
+    border-color: #991b1b;
+    color: #fee2e2;
+}
+
+.btn-action:hover {
+    background-color: #991b1b;
+    border-color: #b91c1c;
+}
+
+/* Equals Button (Subtle Green Accent) */
+.btn-equals {
+    background-color: #14532d;
+    border-color: #166534;
+    color: #dcfce7;
+}
+
+.btn-equals:hover {
+    background-color: #166534;
+    border-color: #22c55e;
+}
