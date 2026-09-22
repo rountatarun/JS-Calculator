@@ -1,22 +1,25 @@
-# 🚀 Tarun's Developer Portfolio
+# Modern JS Calculator 🧮
 
-Welcome to my personal developer portfolio! This website showcases my skills, background, and the projects I have built as a web developer.
+A sleek, modern, and responsive calculator web application built using HTML5, CSS3, and vanilla JavaScript. Designed with a clean dark-slate aesthetic.
 
 ## 🔗 Live Demo
-Check out my live portfolio here: [Tarun Dev Portfolio](https://rountatarun.github.io/tarun-dev-portfolio/)
+Check out the live calculator here: [JS Calculator Live](https://rountatarun.github.io/JS-Calculator/)
 
 ## ✨ Features
-- **About Me:** A brief introduction to who I am and my journey.
-- **Projects Section:** Showcasing my web development projects (including To-Do List and Calculator apps).
-- **Responsive Design:** Fully optimized for both desktop and mobile screens.
+- **Standard Calculations:** Perform basic addition, subtraction, multiplication, and division.
+- **Advanced Utilities:** Percentage calculation, delete/backspace, and decimal handling.
+- **Clean UI/UX:** Styled with a modern dark-slate theme and subtle button press effects.
+- **Responsive Design:** Works seamlessly on desktop, tablet, and mobile devices.
 
 ## 🛠️ Built With
-- **HTML5:** For page structure
-- **CSS3:** For styling, layouts, and responsiveness
-- **JavaScript:** For interactive elements
+- **HTML5:** Semantic markup structure
+- **CSS3:** Custom styles, CSS Grid/Flexbox layouts, and modern aesthetics
+- **Vanilla JavaScript (ES6+):** Core logic and event handling without external libraries
 
-## 📂 Projects Included
-- **To-Do List App:** A daily task manager to stay organized.
-- **Modern Calculator:** A sleek, dark-slate calculator built with vanilla JavaScript. ([Live Demo](https://rountatarun.github.io/JS-Calculator/))
+## 🚀 Getting Started
 
-⭐ Feel free to check out my projects and reach out if you'd like to connect!
+To run this project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/rountatarun/JS-Calculator.git](https://github.com/rountatarun/JS-Calculator.git)
