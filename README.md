@@ -1,29 +1,22 @@
-# JS Calculator 🚀
+# 🚀 Tarun's Developer Portfolio
 
-A modern, clean, and responsive calculator web application built using HTML5, CSS3, and vanilla JavaScript. Designed with a sleek dark-slate aesthetic, perfect for developer portfolios and GitHub.
+Welcome to my personal developer portfolio! This website showcases my skills, background, and the projects I have built as a web developer.
+
+## 🔗 Live Demo
+Check out my live portfolio here: [Tarun Dev Portfolio](https://rountatarun.github.io/tarun-dev-portfolio/)
 
 ## ✨ Features
+- **About Me:** A brief introduction to who I am and my journey.
+- **Projects Section:** Showcasing my web development projects (including To-Do List and Calculator apps).
+- **Responsive Design:** Fully optimized for both desktop and mobile screens.
 
-- **Standard Operations:** Addition, subtraction, multiplication, and division.
-- **Advanced Features:** Percentage calculation, negative number toggling (`±`), decimal support, and backspace/delete functionality.
-- **Keyboard Support:** Full keyboard shortcut integration for fast calculations (`Enter` for equals, `Escape` for clear, `Backspace` for delete, etc.).
-- **Error Handling:** Gracefully handles edge cases like division by zero and prevents `NaN` or `Infinity` display glitches.
-- **Responsive Design:** Clean and adaptive UI that looks great across mobile, tablet, and desktop screens.
+## 🛠️ Built With
+- **HTML5:** For page structure
+- **CSS3:** For styling, layouts, and responsiveness
+- **JavaScript:** For interactive elements
 
----
+## 📂 Projects Included
+- **To-Do List App:** A daily task manager to stay organized.
+- **Modern Calculator:** A sleek, dark-slate calculator built with vanilla JavaScript. ([Live Demo](https://rountatarun.github.io/JS-Calculator/))
 
-## 🛠️ Technologies Used
-
-- **HTML5:** Semantic and structured markup.
-- **CSS3:** Custom styling featuring a sleek dark-slate theme, modern typography, and subtle micro-interactions.
-- **Vanilla JavaScript (ES6+):** Pure logic with clean DOM manipulation and event handling (No external libraries, frameworks, or `eval()` used).
-
----
-
-## 📂 Folder Structure
-
-```text
-JS-Calculator/
-├── index.html    # Calculator layout and structure
-├── style.css     # Clean dark-slate styling and UI design
-└── script.js     # Calculator logic, math operations, and keyboard events
+⭐ Feel free to check out my projects and reach out if you'd like to connect!
